@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import {BACKEND_URL} from "../../config"
+import {BACKEND_URL} from "../config"
 // Single Exercise Component
 const Exercise = (props) => {
   return (
